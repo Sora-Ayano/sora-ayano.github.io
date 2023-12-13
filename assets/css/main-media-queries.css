@@ -1,0 +1,113 @@
+/* ==================== smaller than 980  ==================== */
+@media screen and (max-width: 980px) {
+	#root {
+		width: 95%;
+	}
+
+	#content {
+		width: 92%;
+		padding: 3% 4%;
+	}
+
+	#sidebar {
+		width: 30%;
+	}
+	#sidebar .widget {
+		padding: 8% 7%;
+		margin-bottom: 10px;
+	}
+
+	.navigation { 
+		justify-content: space-around; 
+	}
+
+	.navigation {
+        -webkit-flex-flow: column wrap;
+        flex-flow: column wrap;
+        padding: 0;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    .navigation li:last-of-type a { 
+		border-bottom: none; 
+	}
+
+	.adv-227 {
+		width: 240px;
+		height: 160px;
+	}
+
+	.video-demo {
+		width: 100%;
+		height: auto;
+		min-height: 300px;
+	}
+
+	.moe {
+		display: none;
+	}
+}
+
+/* ==================== smaller than 850  ==================== */
+@media screen and (max-width: 780px) {
+
+	#header {
+		height: auto;
+	}
+
+	#main-nav {
+		position: static;
+	}
+
+	#site-logo {
+		margin: 15px 80px 5px 0;
+		position: static;
+	}
+
+	#site-description {
+		margin: 0 0 15px;
+		position: static;
+	}
+
+	#content {
+		width: auto;
+		float: none;
+		margin: 20px 0;
+	}
+
+	#sidebar {
+		width: 100%;
+		margin: 0;
+		float: none;
+	}
+	#sidebar .widget {
+		padding: 3% 4%;
+		margin: 0 0 10px;
+	}
+
+	.link {
+		width: 60%;
+	}
+
+	.moe {
+		display: none;
+	}
+}
+
+/* ==================== smaller than 480  ==================== */
+@media screen and (max-width: 480px) {
+
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+	#main-nav a {
+		font-size: 90%;
+		padding: 10px 8px;
+	}
+
+	.adv-227 {
+		display: none;
+	}
+}

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>萌音</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="萌音">
+    <link rel="icon" type="image/x-icon" href="assets/images/icon.webp">
+    <link type="text/css" rel="stylesheet" href="assets/css/main.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/main-media-queries.css">
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" href="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js"></script>
+</head>
+<body id="body">
+    <div id="root">
+        <div id="header">
+            <hgroup>
+                <h1 id="site-logo"><a href="#">萌音</a></h1>
+                <h2 id="site-description">鳥と桃が大好きです！</h2>
+            </hgroup>
+            <!-- <nav>
+                <ul id="main-nav" class="clearfix">
+                    <li><a href="https://nanabunnonijyuuni.com/" target="_blank"></a>22/7 官网</li>
+                    <li><a href="https://twitter.com/moepiyo_227" target="_blank"></a>Twitter</li>
+                    <li><a href="https://www.instagram.com/moepiyo227/" target="_blank"></a>Instagram</li>
+                    <li><a href="#"></a>GitHub</li>
+                    <li><a href="#"></a>BiliBili</li>
+                </ul>
+            </nav> -->
+        </div>
+        <div id="content">
+            <div class="content clearfix">
+                <div class="moe-vioce">
+                    <h2 class="title">官网</h2>
+                    <button class="voice" onclick="btnClick1.play()">
+                        <p class="voice-title">语音1</p>
+                    </button>
+                    <button class="voice" onclick="btnClick2.play()">
+                        <p class="voice-title">语音2</p>
+                    </button>
+                    <h2 class="title1">22/7 音乐的时间</h2>
+                    <button class="voice" onclick="btnClick.play()">
+                        <p class="voice-title">自我介绍</p>
+                    </button>
+                    <button class="voice" onclick="btnClick.play()">
+                        <p class="voice-title">声音</p>
+                    </button>
+                    <button class="voice" onclick="btnClick.play()">
+                        <p class="voice-title">声音</p>
+                    </button>
+                    <button class="voice" onclick="btnClick.play()">
+                        <p class="voice-title">声音</p>
+                    </button>
+                    <button class="voice" onclick="btnClick.play()">
+                        <p class="voice-title">声音</p>
+                    </button>
+                    <button class="voice" onclick="btnClick.play()">
+                        <p class="voice-title">声音</p>
+                    </button>
+                    <button class="voice" onclick="btnClick.play()">
+                        <p class="voice-title">声音</p>
+                    </button>
+                    <button class="voice" onclick="btnClick.play()">
+                        <p class="voice-title">声音</p>
+                    </button>
+                    <h2 class="title1">五十音图</h2>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">あ [a]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">い [i]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">う [u]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">え [e]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">お [o]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">か [ka]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">き [ki]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">く [ku]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">け [ke]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">こ [ko]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">さ [sa]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">し [si]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">す [su]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">せ [se]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">そ [so]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">た [ta]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">ち [ti/chi]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">つ [tsu]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">て [te]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">と [to]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">な [na]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">に [ni]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">ぬ [nu]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">ね [ne]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">の [no]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">は [ha]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">ひ [hi]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">へ [he]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">ほ [ho]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">ま [ma]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">み [mi]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">む [mu]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">め [me]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">も [mo]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">や [ya]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">（い）</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">ゆ [yu]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">（え）</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">て [te]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">よ [yo]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">ら [ra]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">り [ri]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">る [ru]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">れ [re]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">ろ [ro]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">わ [wa]</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">（い）</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">（う）</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">（え）</p>
+                    </button>
+                    <button class="voice1" onclick="btnClick.play()">
+                        <p class="voice-title">を [wo]</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <aside id="sidebar">
+            <section class="widget">
+                <div class="moe">
+                    <img class="photo1" src="assets/images/p1.jpg"/>
+                    <img class="photo2" src="assets/images/p2.png"/>
+                </div>
+                <h4 class="widgettitle">涼花萌</h4>
+                <h4 class="widgettitle">すずはなもえ</h4>
+                <ul class="moe-description">
+                    <li>出身地：京都府</li>
+                    <li>生日：12月29日</li>
+                    <li><a href="涼花萌.html" style="text-align: end" target="_blank">详情—></a></li>
+                </ul>
+            </section>
+        </aside>
+        <aside class="adv-227">
+            <div id="box">
+                <a target="_blank" href="https://nanabunnonijyuuni.com/"><img class="adv-227" src="assets/images/adv/adv.png" ></a>
+                    <a target="_blank" href="https://nanabunnonijyuuni.com/"><img src="assets/images/adv/close1.gif" style="cursor: pointer; position: absolute; top: 0px; left: 0px; z-index: 2147483647; width: auto;"></a>
+                </a>
+                <div class="close" onclick=btnTrueClose() style="background-image: url(assets/images/adv/close2.png)">&emsp;&emsp;..</div>
+            </div>
+        </aside>
+        <footer id="footer">
+            <span>©22/7 | Sora</span>
+        </footer>
+    </div>
+</body>
+</html>
